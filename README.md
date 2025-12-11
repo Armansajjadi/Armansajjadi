@@ -1,18 +1,23 @@
 <!--
-  Fancy GitHub Profile README
-  Replace: YOUR_NAME, your-username, links, and text marked with ❗
+  Fancy GitHub Profile README for: Arman Sajjadi
 -->
 
 <!-- BANNER -->
 <p align="center">
-  <!-- Optional: put your own banner image here -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=230&section=header&text=ArmanSajjadi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="header"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=230&section=header&text=Arman%20Sajjadi&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&font=Fira+Code"
+    alt="header"
+  />
 </p>
+
 
 <!-- TYPING -->
 <p align="center">
   <a href="https://github.com/Armansajjadi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=AI+%26+Machine+Learning+Enthusiast;Computer+Vision+Researcher;Deepfake+Detection+%7C+Emotion+Recognition;Always+learning%2C+always+building+🧠" alt="Typing SVG" />
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=AI+%26+Machine+Learning+Researcher;Computer+Vision+%26+Multimodal+Learning;Attention+Mechanisms+%26+Transformers"
+      alt="Typing SVG"
+    />
   </a>
 </p>
 
@@ -20,15 +25,12 @@
 
 ## 👋 About Me
 
-> AI researcher & builder who likes to teach machines how to see, think, and sometimes hallucinate less than humans do.
+> AI researcher who enjoys teaching machines how to see, listen, and reason with attention.
 
-- 🤖 Working mainly on **AI & Machine Learning**, with a strong focus on **Computer Vision**  
-- 🔍 Published **2 papers** in CV:  
-  - 🕵️‍♂️ **Deepfake Detection** (❗replace with your paper title / link)  
-  - 🙂 **Emotion Recognition from Images/Video** (❗replace with your paper title / link)  
-- 🌌 My interests are **not limited to vision** – I enjoy anything in AI that mixes theory, code, and real-world impact  
-- 🧪 Love experimenting with **PyTorch**, weird loss functions, and model architectures at 3am  
-- 🎯 Goal: build intelligent systems that are actually useful, not just good on benchmarks  
+- 🤖 Working mainly on **AI & Machine Learning**, with a strong focus on **Computer Vision** and **multimodal models**
+- 🧠 Particularly interested in **attention mechanisms** and **transformer-based architectures**
+- 🧪 Love experimenting with **PyTorch**, custom loss functions, and training tricks
+- 🎯 Goal: build intelligent systems that are robust, interpretable, and deployable – not just good on a single benchmark
 
 ---
 
@@ -39,7 +41,9 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-ffcc4d?style=for-the-badge&logo=huggingface&logoColor=000)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
@@ -57,19 +61,19 @@
 <table>
   <tr>
     <td width="50%">
-      <h4>🕵️‍♂️ Deepfake Detection</h4>
+      <h4>🕵️‍♂️ Multimodal Deepfake Detection (in-review)</h4>
       <ul>
-        <li>Designed CV models to distinguish real vs. manipulated faces</li>
-        <li>Worked with challenging datasets and subtle artifacts</li>
-        <li>Interested in robustness, generalization across datasets, and adversarial attacks</li>
+        <li>Two-branch architecture combining <b>spatio-temporal</b> and <b>frequency-temporal</b> information</li>
+        <li>Investigating artifacts in both pixel and frequency domains for higher robustness</li>
+        <li>Using MLP-Mixer to fuse representations across spatio-temporal and temporal-frequency</li>
       </ul>
     </td>
     <td width="50%">
-      <h4>🙂 Emotion Recognition</h4>
+      <h4>🙂 Audio–Visual Emotion Recognition (in-review)</h4>
       <ul>
-        <li>Built models to read human emotions from images/videos</li>
-        <li>Explored architectures for temporal and spatial features</li>
-        <li>Care about fairness, bias, and ethical use of affective computing</li>
+        <li>Joint modeling of <b>video</b> and <b>audio</b> streams for affective computing</li>
+        <li>Exploring temporal modeling with cross-modal attention</li>
+        <li>Interested in bias, fairness, and real-world reliability of emotion recognition systems</li>
       </ul>
     </td>
   </tr>
@@ -79,36 +83,22 @@
 
 ## 🔭 Currently Exploring
 
-- 🧩 **Multi-modal AI** – mixing vision, text, and audio  
-- 🏎 **Efficient models** – pruning, distillation, and quantization for real-time systems  
+- 🎬 **Action Recognition from Video** – building and evaluating models for my bachelor's final project, focusing on temporal dynamics and robust feature representations  
+- 🧲 **Attention & Transformers** – efficient self-attention, cross-attention, and hybrid CNN–Transformer backbones  
+- 🏎 **Efficient Models** – GPU-friendly, memory-efficient architectures that still perform strongly  
 
----
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/Armansajjadi">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="stats" />
-  </a>
-  <a href="https://github.com/your-username">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical&langs_count=8" alt="langs" />
-  </a>
-</p>
-
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=your-username&theme=radical&date_format=j%20M%5B%20Y%5D" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=dracula&margin-w=10&margin-h=10&no-frame=true&row=1" alt="trophies"/>
-</p>
-
----
 
 ## 🧮 Favorite Quote – Alan Turing
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/00000000/placeholder-alan-turing.png" alt="Alan Turing" width="120" style="border-radius: 50%; border: 2px solid #ffffff33;" />
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg"
+    alt="Alan Turing"
+    width="140"
+    style="border-radius: 50%; border: 2px solid #ffffff33;"
+  />
 </p>
 
 <p align="center">
@@ -121,32 +111,24 @@
 
 ---
 
-## 🎮 Fun Bits
-
-- 🧩 I enjoy solving ML problems that look impossible at first
-- 🎧 Usually coding with some synthwave / lo-fi in the background
-- 🔁 Most-used command: <code>git commit -m "fix small bug"</code> (it was not a small bug)
-
----
-
 ## 📫 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">
+  <a href="https://www.linkedin.com/in/arman-sajjadi-7789b7268">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:arman.sajadi10@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/Armansajjadi">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 <p align="center">
-  If you're into AI, computer vision, or just strange ideas that might work — feel free to reach out 🚀
+  If you're into AI, computer vision, multimodal learning, or just strange ideas that might work — feel free to reach out 🚀
 </p>
 
 ---
